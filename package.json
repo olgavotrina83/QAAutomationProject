@@ -1,0 +1,25 @@
+{
+  "name": "qa-automation-project",
+  "version": "1.0.0",
+  "description": "Agent-first Playwright QA automation framework for SauceDemo.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:ui": "playwright test --ui",
+    "typecheck": "tsc --noEmit",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:clean": "node scripts/clean-artifacts.mjs",
+    "ai:check": "node scripts/ai-check.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^3.2.1",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.0"
+  }
+}

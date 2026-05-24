@@ -104,6 +104,12 @@ dist
 # vitepress cache directory
 **/.vitepress/cache
 
+# Playwright and Allure artifacts
+allure-results/
+allure-report/
+test-results/
+playwright-report/
+
 # Docusaurus cache and generated files
 .docusaurus
 
