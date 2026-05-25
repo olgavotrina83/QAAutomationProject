@@ -17,6 +17,21 @@ npx playwright install
 cp .env.example .env
 ```
 
+Allure CLI requires Java Runtime to generate HTML reports. On macOS, install it with Homebrew:
+
+```bash
+brew install openjdk
+echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+java -version
+```
+
+If `java -version` still cannot find Java, link the JDK:
+
+```bash
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+```
+
 ## Commands
 
 - `npm test` - run the full Playwright test suite.
