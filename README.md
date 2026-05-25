@@ -19,16 +19,14 @@ cp .env.example .env
 
 ## Commands
 
-```bash
-npm test
-npm run test:smoke
-npm run test:ui
-npm run typecheck
-npm run allure:generate
-npm run allure:open
-npm run allure:clean
-npm run ai:check
-```
+- `npm test` - run the full Playwright test suite.
+- `npm run test:smoke` - run tests tagged with `@smoke`.
+- `npm run test:ui` - open Playwright UI mode for interactive test development and debugging.
+- `npm run typecheck` - run TypeScript checks without emitting files.
+- `npm run allure:generate` - build the HTML Allure report from `allure-results/`.
+- `npm run allure:open` - open the generated Allure report.
+- `npm run allure:clean` - remove generated test and Allure artifacts.
+- `npm run ai:check` - verify that required AI instruction and skill files exist.
 
 ## Run by tags
 
