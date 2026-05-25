@@ -30,6 +30,29 @@ npm run allure:clean
 npm run ai:check
 ```
 
+## Run by tags
+
+```bash
+npx playwright test --grep @smoke
+npx playwright test --grep @regression
+npx playwright test --grep @auth
+npx playwright test --grep @inventory
+npx playwright test --grep @cart
+npx playwright test --grep @checkout
+```
+
+Run tagged tests in headed mode:
+
+```bash
+npx playwright test --grep @regression --headed
+```
+
+Run tagged tests in one browser project:
+
+```bash
+npx playwright test --grep @regression --project=chromium
+```
+
 ## Structure
 
 - `test/tests/` - Playwright specs.
