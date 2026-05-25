@@ -7,10 +7,8 @@ const requiredPaths = [
   ".ai/skills/page-object-maintenance/SKILL.md",
   ".ai/skills/qa-debugging/SKILL.md",
   ".ai/skills/allure-reporting/SKILL.md",
-  ".ai/skills/mcp-usage/SKILL.md",
   "AGENTS.md",
-  "CLAUDE.md",
-  "docs/mcp.md"
+  "CLAUDE.md"
 ];
 
 const missing = [];

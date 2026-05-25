@@ -25,8 +25,4 @@ Before changing Allure metadata or reporting behavior, read:
 
 - `.ai/skills/allure-reporting/SKILL.md`
 
-Before changing MCP or agent integration behavior, read:
-
-- `.ai/skills/mcp-usage/SKILL.md`
-
 For implementation work, keep changes scoped, preserve generated artifacts out of git, and verify with `npm run typecheck` plus the smallest relevant Playwright command.

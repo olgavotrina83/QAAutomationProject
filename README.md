@@ -111,6 +111,5 @@ npm run allure:open
 - `src/fixtures/` - Playwright fixtures and Allure helpers.
 - `src/assertions/` - reusable domain assertions.
 - `.ai/` - shared agent rules, context, and skills.
-- `docs/mcp.md` - MCP conventions for agent vendors.
 
 Generated report artifacts are ignored by git: `allure-results/`, `allure-report/`, and `test-results/`.

@@ -25,8 +25,4 @@ Before changing Allure metadata or reporting behavior, read:
 
 - `.ai/skills/allure-reporting/SKILL.md`
 
-Before changing MCP or agent integration behavior, read:
-
-- `.ai/skills/mcp-usage/SKILL.md`
-
 Follow existing Playwright and Allure conventions. Keep generated folders out of git and prefer the smallest relevant verification command for each change.
