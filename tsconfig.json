@@ -9,10 +9,9 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "types": ["node", "@playwright/test"],
-    "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"],
-      "@test/*": ["test/*"]
+      "@src/*": ["./src/*"],
+      "@test/*": ["./test/*"]
     }
   },
   "include": ["playwright.config.ts", "src/**/*.ts", "test/**/*.ts"]
