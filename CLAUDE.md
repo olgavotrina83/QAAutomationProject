@@ -8,4 +8,26 @@ Use the shared project instructions first:
 
 Project skills live in `.ai/skills/` and are intentionally vendor-neutral.
 
+## Project skills
+
+Before changing tests, read:
+
+- `.ai/skills/playwright-test-authoring/SKILL.md`
+
+Before changing page objects, read:
+
+- `.ai/skills/page-object-maintenance/SKILL.md`
+
+Before debugging failures, read:
+
+- `.ai/skills/qa-debugging/SKILL.md`
+
+Before changing Allure metadata or reporting behavior, read:
+
+- `.ai/skills/allure-reporting/SKILL.md`
+
+Before changing MCP or agent integration behavior, read:
+
+- `.ai/skills/mcp-usage/SKILL.md`
+
 Follow existing Playwright and Allure conventions. Keep generated folders out of git and prefer the smallest relevant verification command for each change.
