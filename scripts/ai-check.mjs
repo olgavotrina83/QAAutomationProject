@@ -3,7 +3,6 @@ import { access } from "node:fs/promises";
 const requiredPaths = [
   ".ai/core.md",
   ".ai/context.md",
-  ".ai/tasks.md",
   ".ai/skills/playwright-test-authoring/SKILL.md",
   ".ai/skills/page-object-maintenance/SKILL.md",
   ".ai/skills/qa-debugging/SKILL.md",

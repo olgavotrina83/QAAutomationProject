@@ -4,7 +4,6 @@ Use the shared project instructions first:
 
 - `.ai/core.md`
 - `.ai/context.md`
-- `.ai/tasks.md`
 
 Relevant project skills live in `.ai/skills/`. Prefer those skills before inventing new conventions.
 

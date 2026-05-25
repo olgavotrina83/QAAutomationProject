@@ -4,7 +4,6 @@ Use the shared project instructions first:
 
 - `.ai/core.md`
 - `.ai/context.md`
-- `.ai/tasks.md`
 
 Project skills live in `.ai/skills/` and are intentionally vendor-neutral.
 
